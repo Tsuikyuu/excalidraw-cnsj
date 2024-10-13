@@ -216,7 +216,7 @@ export class Fonts {
       uri: Virgil,
     });
 
-    _register("ChangNanShouJi", FONT_METADATA[FONT_FAMILY.Excalifont], {
+    _register("CangNanShouJi", FONT_METADATA[FONT_FAMILY.Excalifont], {
       uri: CangNanShouJi,
     });
 
