@@ -27,7 +27,7 @@ export const DEFAULT_FONTS = [
     value: FONT_FAMILY.CangNanShouJi,
     icon: FreedrawIcon,
     text: t("labels.handDrawn"),
-    testId: "font-family-changnanshouji",
+    testId: "font-family-cangnanshouji",
   },
   {
     value: FONT_FAMILY.Nunito,
