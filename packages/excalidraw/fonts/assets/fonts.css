@@ -33,3 +33,10 @@
   style: normal;
   display: swap;
 }
+
+@font-face {
+  font-family: "CangNanShouJi";
+  src: url(./YeZiGongChangCangNanShouJi-2.ttf) format("truetype");
+  style: normal;
+  display: swap;
+}

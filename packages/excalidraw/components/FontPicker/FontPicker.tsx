@@ -17,11 +17,17 @@ import { t } from "../../i18n";
 import "./FontPicker.scss";
 
 export const DEFAULT_FONTS = [
+  // {
+  //   value: FONT_FAMILY.Excalifont,
+  //   icon: FreedrawIcon,
+  //   text: t("labels.handDrawn"),
+  //   testId: "font-family-handrawn",
+  // },
   {
-    value: FONT_FAMILY.Excalifont,
+    value: FONT_FAMILY.CangNanShouJi,
     icon: FreedrawIcon,
     text: t("labels.handDrawn"),
-    testId: "font-family-handrawn",
+    testId: "font-family-changnanshouji",
   },
   {
     value: FONT_FAMILY.Nunito,

@@ -33,6 +33,8 @@ import NunitoCyrilic from "./assets/Nunito-Regular-XRXI3I6Li01BKofiOc5wtlZ2di8HD
 import NunitoCyrilicExt from "./assets/Nunito-Regular-XRXI3I6Li01BKofiOc5wtlZ2di8HDIkhdTk3j6zbXWjgevT5.woff2";
 import NunitoVietnamese from "./assets/Nunito-Regular-XRXI3I6Li01BKofiOc5wtlZ2di8HDIkhdTs3j6zbXWjgevT5.woff2";
 
+import CangNanShouJi from "./assets/YeZiGongChangCangNanShouJi-2.ttf";
+
 export class Fonts {
   // it's ok to track fonts across multiple instances only once, so let's use
   // a static member to reduce memory footprint
@@ -212,6 +214,10 @@ export class Fonts {
 
     _register("Virgil", FONT_METADATA[FONT_FAMILY.Virgil], {
       uri: Virgil,
+    });
+
+    _register("ChangNanShouJi", FONT_METADATA[FONT_FAMILY.Excalifont], {
+      uri: CangNanShouJi,
     });
 
     _register("Excalifont", FONT_METADATA[FONT_FAMILY.Excalifont], {

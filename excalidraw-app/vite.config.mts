@@ -19,6 +19,7 @@ export default defineConfig({
   // We need to specify the envDir since now there are no
   //more located in parallel with the vite.config.ts file but in parent dir
   envDir: "../",
+  base: "./",
   build: {
     outDir: "build",
     rollupOptions: {
@@ -76,7 +77,12 @@ export default defineConfig({
 
       workbox: {
         // Don't push fonts, locales and wasm to app precache
-        globIgnores: ["fonts.css", "**/locales/**", "service-worker.js", "**/*.wasm-*.js"],
+        globIgnores: [
+          "fonts.css",
+          "**/locales/**",
+          "service-worker.js",
+          "**/*.wasm-*.js",
+        ],
         runtimeCaching: [
           {
             urlPattern: new RegExp("/.+.(ttf|woff2|otf)"),
