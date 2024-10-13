@@ -187,7 +187,9 @@ export class ExcalidrawFont implements Font {
         return "";
       }
 
-      return `format('${parts.pop()}')`;
+      const type = parts.pop() === "ttf" ? "truetype" : parts.pop();
+
+      return `format('${type}')`;
     } catch (error) {
       return "";
     }
